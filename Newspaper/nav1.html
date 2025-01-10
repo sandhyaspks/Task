@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Highlights</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        header nav ol {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        header nav ol li {
+            margin: 0 15px;
+        }
+        header nav ol li a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        main {
+            flex: 1;
+            margin: 80px 20px 60px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+            color: #555;
+        }
+        footer {
+            position: sticky;
+            bottom: 0;
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer nav ol {
+            list-style: none;
+        }
+        footer nav ol li a {
+            text-decoration: none;
+            color: #ff7f50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li><a href="#Todaynews">Today News</a></li>
+                <li><a href="#Trending">Trending</a></li>
+                <li><a href="#Todayquote">Quote of the Day</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <section id="Todaynews">
+            <h2>Today News</h2>
+            <p><strong>1. Global Politics:</strong> Major developments are unfolding in international relations, with diplomatic discussions on global trade agreements making headlines. Key leaders from the G7 are meeting to address pressing issues such as climate change and economic recovery.</p>
+            <p><strong>2. Tech Innovations:</strong> Leading technology firms have unveiled groundbreaking products at CES 2025. Highlights include the latest in AI-powered consumer electronics, wearable devices, and sustainable tech solutions.</p>
+            <p><strong>3. Weather Alerts:</strong> Meteorologists warn of severe storms expected to hit the southeastern states. Citizens are advised to stay updated on weather alerts and take necessary precautions.</p>
+        </section>
+        <section id="Trending">
+            <h2>Trending News</h2>
+            <p><strong>1. Roshini’s Bike Stunt:</strong> A daring stunt performed by Roshini has gone viral. The act showcases incredible skill and courage, drawing millions of views on social media platforms.</p>
+            <p><strong>2. Viral Dance Videos:</strong> Creative dance routines are taking the internet by storm. From unique choreography to entertaining challenges, these videos are captivating audiences worldwide.</p>
+            <p><strong>3. AI Ethics Debate:</strong> Discussions on the ethical implications of artificial intelligence are gaining traction. Experts weigh in on its potential risks and benefits, emphasizing the need for responsible innovation.</p>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ol>
+                <li><a href="#Todayquote">Quote of the Day</a></li>
+            </ol>
+        </nav>
+        <section id="Todayquote">
+            <h2>Quote of the Day</h2>
+            <p>"The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt</p>
+        </section>
+    </footer>
+</body>
+</html>
